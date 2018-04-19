@@ -20,6 +20,8 @@ namespace Repo
                 people = db.PERSONCountries.ToList();
             }
 
+            string moo = "ya what ever...";
+
             return people;
         }
     }
