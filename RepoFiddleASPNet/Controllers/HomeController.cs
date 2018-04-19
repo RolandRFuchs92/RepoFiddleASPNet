@@ -23,7 +23,7 @@ namespace RepoFiddleASPNet.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            string test = "moo";
             return View();
         }
     }
